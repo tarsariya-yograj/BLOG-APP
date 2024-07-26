@@ -1,0 +1,28 @@
+.blog-post-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .blog-post-form input,
+  .blog-post-form textarea {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .blog-post-form button {
+    padding: 10px 20px;
+  }
+  input,textarea{
+  border-radius: 11px;
+  border: 1px solid gray;
+  color: gray;
+  }
+  button{
+    background-color: transparent;
+    border-radius: 11px;
+    border: 1px solid gray;
+    cursor: pointer;
+  }

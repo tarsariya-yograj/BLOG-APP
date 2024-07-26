@@ -1,0 +1,25 @@
+
+
+.blog-post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width:50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .blog-post img {
+    max-width: 100%;
+  }
+  
+  
+  .blog-post .post-date {
+    color: gray;
+  }
+  
+  .blog-post button {
+    margin-top: 10px;
+  }
